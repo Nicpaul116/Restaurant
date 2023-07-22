@@ -1,0 +1,41 @@
+.blog{
+    color: #fff;
+}
+
+.Blog_content{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    margin: 5rem;
+    
+
+}
+
+.Blog_header{
+    color: gold;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.blog_info{
+    background: #003153;
+    padding: 4.8rem;
+    height: 400px;
+    flex: 1 1 45rem;
+
+}
+
+.blog_button{
+    border: none;
+    background: gold;
+    width: 150px;
+    height: 50px;
+    transition: 0.2s ease-in;
+}
+
+.blog_button:hover{
+    background: black;
+    color: gold;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
