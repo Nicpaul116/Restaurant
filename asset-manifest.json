@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Restuarant/static/css/main.256568fb.css",
+    "main.js": "/Restuarant/static/js/main.31fdb17f.js",
+    "static/media/creamcake.png": "/Restuarant/static/media/creamcake.45e5e5407d1d8df573db.png",
+    "static/media/burger.png": "/Restuarant/static/media/burger.a53a46c563a90f1f1dad.png",
+    "static/media/ChickenGrill.png": "/Restuarant/static/media/ChickenGrill.94ef81825c7b0ac796d7.png",
+    "static/media/beef.png": "/Restuarant/static/media/beef.af2c623b0f7cc02de038.png",
+    "static/media/Pizza.png": "/Restuarant/static/media/Pizza.98c3c898338f4618275b.png",
+    "static/media/browny.png": "/Restuarant/static/media/browny.12f230668625d452ca8c.png",
+    "static/media/chocolate.png": "/Restuarant/static/media/chocolate.246feb3d75323e40436b.png",
+    "static/media/vanilla.png": "/Restuarant/static/media/vanilla.37d44459b71a2cb9ffc2.png",
+    "static/media/shawarma.png": "/Restuarant/static/media/shawarma.67e47130f8eec14ab92e.png",
+    "static/media/spagheti.png": "/Restuarant/static/media/spagheti.c0a7438081ec692a65f3.png",
+    "static/media/TacoSalad.png": "/Restuarant/static/media/TacoSalad.5a3935e2aab917f728bd.png",
+    "static/media/fancyFood.jpg": "/Restuarant/static/media/fancyFood.63ce7aba85698beb6ef2.jpg",
+    "static/media/BBQ.png": "/Restuarant/static/media/BBQ.5c1d912ddf726e9f97a6.png",
+    "static/media/Aboutus.jpg": "/Restuarant/static/media/Aboutus.3099d1d228ce4028f17b.jpg",
+    "index.html": "/Restuarant/index.html",
+    "main.256568fb.css.map": "/Restuarant/static/css/main.256568fb.css.map",
+    "main.31fdb17f.js.map": "/Restuarant/static/js/main.31fdb17f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.256568fb.css",
+    "static/js/main.31fdb17f.js"
+  ]
+}
