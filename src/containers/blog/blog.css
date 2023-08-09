@@ -5,10 +5,18 @@
 .Blog_content{
     display: flex;
     align-items: center;
-    flex-wrap:wrap;
-    margin: 5rem;
-    
+    padding: 1rem 5rem;
+}
 
+.blog_wrap{
+    background:  #003153;
+}
+
+.blog_img{
+    height: 15rem;
+    width: 100rem;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .Blog_header{
@@ -17,12 +25,18 @@
     font-size: 2rem;
 }
 
-.blog_info{
-    background: #003153;
-    padding: 4.8rem;
-    height: 400px;
-    flex: 1 1 45rem;
+.Blog_header span{
+    border-bottom: 2px solid gold;
+}
 
+.blog_info{
+    margin: 0 5rem;
+    text-align: justify;
+}
+
+.blog_info p{
+    padding: 2.5rem 2rem;   
+    text-align: justify;
 }
 
 .blog_button{
@@ -31,11 +45,148 @@
     width: 150px;
     height: 50px;
     transition: 0.2s ease-in;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
 }
+
 
 .blog_button:hover{
     background: black;
     color: gold;
     cursor: pointer;
     transition: 0.2s ease-out;
+}
+
+.blog_info h1{
+    color: gold;
+    padding: 0 1rem;
+}
+
+
+.Blog_content2{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30rem;
+}
+
+.Blog_content_Moto h1{
+    color: gold;
+    font-size: 2.5rem;
+}
+
+.Blog_content_Moto p{
+  text-align:justify;
+  padding: 1rem;
+  margin: 0 5rem;
+}
+
+.Blog_content_days{
+    padding: 1rem;
+    margin: 0;
+}
+
+.blog_days_ul{
+    list-style: none;
+    padding: 0;
+}
+
+.blog_days_li {
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+}
+
+.blog_content_news-header{
+    color: gold;
+    font-size: 20px;
+}
+
+.blog_content-info{
+    text-align: justify;
+}
+
+.blog_content-input input{
+    width: 100%;
+    height: 2rem;
+    border: none;
+}
+
+.Blog_content_button{
+    width: 5rem;
+    height: 2.5rem;
+    background: gold;
+    color: black;
+    border: none;
+    transition: 0.2s ease-in;
+}
+
+.Blog_content_button:hover{
+    cursor: pointer;
+    transition: 0.2s ease-out;
+    color: gold;
+    background: black;
+    border: 2px solid gold;
+}
+
+.blog_content-buttonsection{
+    padding-top: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .Blog_content{
+        display: block;
+    }
+
+    .blog_info{
+       text-align: center;
+    }
+
+    .Blog_content2{
+        display: block;
+    }
+}  
+
+@media screen and (max-width:600px) {
+   .Block_header{
+    font-size: 1rem;
+   }
+
+   .Blog_content_Moto p{
+    margin: 0;
+    padding: 0 1rem;
+   }
+
+   .blog_info h1{
+    padding: 0;
+   }
+
+   .blog_info{
+    margin: 0;
+   }
+
+   .blog_info p{
+    padding:0 1rem;
+    text-align: justify;
+   }
+
+   .blog_button{
+    position: unset;
+   }
+
+}
+
+@media screen and (max-width:320px) {
+  .Blog_content{
+    padding: 0;
+  }
+
+
+  .Blog_content2{
+    padding: 0;
+  }
 }

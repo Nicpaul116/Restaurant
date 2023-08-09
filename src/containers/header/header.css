@@ -1,5 +1,5 @@
 .container_header{
-    background: linear-gradient(90deg, rgb(68 68 68/ 35%), rgb(0 0 0 /90%)),url('../../assets/fancyFood.jpg') no-repeat;
+    background: linear-gradient(90deg, rgb(68 68 68/ 35%), rgb(0 0 0 /95%)),url('../../assets/fancyFood.jpg') no-repeat;
     background-size: cover;
     background-position:center ;
     display: flex;
@@ -25,7 +25,7 @@
     font-size: 3rem;
     padding: 0 2rem;
 }
-.container_header_title button{
+.header_button{
     margin: 0 20rem;
     color: black;
     background: gold;
@@ -43,3 +43,24 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width:600px) {
+    .header_content h1{
+        font-size: 4rem;
+    }
+
+    .header_button{
+        margin: 0 10rem;
+    }
+}
+
+
+@media screen and (max-width:340px) {
+    .header_content h1{
+        font-size: 3rem;
+    }
+
+    .header_button{
+        margin: 0 5rem;
+    }
+}
