@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Restuarant/static/css/main.31db79f8.css",
-    "main.js": "/Restuarant/static/js/main.dd83f82c.js",
+    "main.css": "/Restuarant/static/css/main.6cd75079.css",
+    "main.js": "/Restuarant/static/js/main.1be15113.js",
     "static/media/creamcake.png": "/Restuarant/static/media/creamcake.45e5e5407d1d8df573db.png",
     "static/media/burger.png": "/Restuarant/static/media/burger.a53a46c563a90f1f1dad.png",
     "static/media/ChickenGrill.png": "/Restuarant/static/media/ChickenGrill.94ef81825c7b0ac796d7.png",
@@ -17,11 +17,11 @@
     "static/media/BBQ.png": "/Restuarant/static/media/BBQ.5c1d912ddf726e9f97a6.png",
     "static/media/Aboutus.jpg": "/Restuarant/static/media/Aboutus.3099d1d228ce4028f17b.jpg",
     "index.html": "/Restuarant/index.html",
-    "main.31db79f8.css.map": "/Restuarant/static/css/main.31db79f8.css.map",
-    "main.dd83f82c.js.map": "/Restuarant/static/js/main.dd83f82c.js.map"
+    "main.6cd75079.css.map": "/Restuarant/static/css/main.6cd75079.css.map",
+    "main.1be15113.js.map": "/Restuarant/static/js/main.1be15113.js.map"
   },
   "entrypoints": [
-    "static/css/main.31db79f8.css",
-    "static/js/main.dd83f82c.js"
+    "static/css/main.6cd75079.css",
+    "static/js/main.1be15113.js"
   ]
 }
