@@ -1,14 +1,14 @@
-.menu{
-    color: #fff;
-    background: black;
+.menu {
+  color: #fff;
+  background: black;
 }
 
 .menu_header {
-    color: gold;
-    text-align: center;
-    justify-content: center;
-    margin: 1rem;
-    font-size: 2rem;
+  color: gold;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 2rem;
 }
 
 .menu_item {
@@ -16,73 +16,100 @@
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1.5rem;
 }
-.item_header img{
-    height: 100px;
-    width: 100px;
+.item_header img {
+  height: 100px;
+  width: 100px;
 }
 
-.item_header{
-    padding: 5rem;
-    text-align: center;
-    border: 0.2rem solid gold;
+.item_header {
+  padding: 5rem;
+  text-align: center;
+  border: 0.2rem solid gold;
 }
 
-.item_button{
-    background: gold;
-    border: none;
-    width: 100px;
-    height:50px ;
-    transition: 0.2s ease-out;
+.item_button {
+  background: gold;
+  border: none;
+  width: 100px;
+  height: 50px;
+  transition: 0.2s ease-out;
 }
 
-.item_button:hover{
-    background: black;
-    color: gold;
-    border: solid gold;
-    transition: 0.2s ease-out;
-    cursor: pointer;
+.item_button:hover {
+  background: black;
+  color: gold;
+  border: solid gold;
+  transition: 0.2s ease-out;
+  cursor: pointer;
 }
 
-.special_heading{
-    font-size: 2rem;
-    color: gold;
-    text-align: center;
-    justify-content: center;
-    margin: 1rem;
+.special_heading {
+  font-size: 2rem;
+  color: gold;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
 }
 
-.special_menu{
-    display: grid;
+.special_menu {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1.5rem;
 }
-.special_card{
-    padding: 5rem;
-    text-align: center;
-    border: 0.2rem solid gold;
+.special_card {
+  padding: 5rem;
+  text-align: center;
+  border: 0.2rem solid gold;
 }
 
 .special_card h3 p {
-    color: gold;
+  color: gold;
 }
-.special_card img{
-    height: 100px;
-    width: 100px;
-}
-
-.special_button{
-    background: gold;
-    border: none;
-    width: 100px;
-    height:50px ;
-    transition: 0.2s ease-out;
-
+.special_card img {
+  height: 100px;
+  width: 100px;
 }
 
-.special_button:hover{
-    color: gold;
-    background: black;
-    border: solid gold;
-    cursor: pointer;
-    transition: 0.2s ease-out;
+.special_button {
+  background: gold;
+  border: none;
+  width: 100px;
+  height: 50px;
+  transition: 0.2s ease-out;
+}
+
+.special_button:hover {
+  color: gold;
+  background: black;
+  border: solid gold;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+.product-count {
+  padding: 3px 0 0 4px;
+  font-size: 15px;
+  color: #fff;
+  position: fixed;
+  bottom: 13.5%;
+  right: 8.5%;
+  border: 1px solid #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 12px;
+  background-color: #003153;
+}
+
+.button-click {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  color: gold;
+  transition: 0.5s ease-out;
+}
+
+.button-click:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.5s ease-in;
 }

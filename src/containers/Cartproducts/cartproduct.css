@@ -1,0 +1,108 @@
+.Cart-wrap {
+  position: fixed;
+  left: 60%;
+  right: 0;
+  bottom: 0;
+  top: 30%;
+  z-index: 1;
+  width: 100%;
+  max-width: 500px;
+  color: gold;
+}
+
+.Cart_shopping {
+  background-color: rgba(47, 66, 65);
+  border: 2px solid rgba(47, 66, 65);
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  padding: 10px 10px;
+  position: relative;
+  height: 420px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-info {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.cart-products {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-product img {
+  height: 50px;
+  width: 50px;
+}
+
+.cart-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 3px solid gold;
+  width: 100%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-proceed {
+  height: 50px;
+  width: 200px;
+  color: black;
+  background-color: gold;
+  border: 1px solid gold;
+  transition: 0.3s ease-out;
+}
+
+.btn-proceed:hover {
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid gold;
+  transition: 0.3s ease-in;
+  color: gold;
+}
+
+.btn-proceed_loc {
+  padding: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .Cart-wrap {
+    top: 35%;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Cart-wrap {
+    top: 20%;
+    left: 25%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Cart-wrap {
+    top: 20%;
+    left: 15%;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Cart-wrap {
+    left: 10%;
+  }
+}

@@ -10,6 +10,7 @@ import TacoSalad from '../../assets/TacoSalad.png'
 
 export const itemData = [
     {
+        id:1,
         img:beef,
         alt:'beef',
         name:'Smoked ribs',
@@ -19,6 +20,7 @@ export const itemData = [
     },
 
     {
+        id:2,
         img:Pizza,
         alt:'Pizza',
         name:'Peparoni Pizza',
@@ -28,6 +30,7 @@ export const itemData = [
     },
 
     {
+        id:3,
         img:BBQ,
         alt:'BBQ',
         name:'Smoked ribs',
@@ -37,6 +40,7 @@ export const itemData = [
     },
 
     {
+        id:4,
         img:shawarma,
         alt:'shawarma',
         name:'Chicken shawarma',
@@ -46,6 +50,7 @@ export const itemData = [
     },
 
     {
+        id:5,
         img:TacoSalad,
         alt:'TacoSalad',
         name:'Beef Taco',
@@ -55,6 +60,7 @@ export const itemData = [
     },
 
     {
+        id:6,
         img:ChickenGrill,
         alt:'ChickenGrill',
         name:'Quarter Chicken',
@@ -64,6 +70,7 @@ export const itemData = [
     },
 
     {
+        id:7,
         img:spagheti,
         alt:'spagheti',
         name:'Spaghetti',
@@ -73,6 +80,7 @@ export const itemData = [
     },
 
     {
+        id:8,
         img:burger,
         alt:'burger',
         name:'Beef burger',
