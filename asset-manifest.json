@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/Restaurant/static/css/main.97865616.css",
-    "main.js": "/Restaurant/static/js/main.e0f26d9f.js",
+    "main.css": "/Restaurant/static/css/main.f5c918b6.css",
+    "main.js": "/Restaurant/static/js/main.b6a7d647.js",
     "static/media/creamcake.png": "/Restaurant/static/media/creamcake.45e5e5407d1d8df573db.png",
+    "static/media/ali-inay-y3aP9oo9Pjc-unsplash.jpg": "/Restaurant/static/media/ali-inay-y3aP9oo9Pjc-unsplash.c96a2d1afd69442c7737.jpg",
+    "static/media/sebastian-coman-photography-eBmyH7oO5wY-unsplash.jpg": "/Restaurant/static/media/sebastian-coman-photography-eBmyH7oO5wY-unsplash.7cc8e78d9e91bfa75202.jpg",
+    "static/media/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg": "/Restaurant/static/media/kayleigh-harrington-yhn4okt6ci0-unsplash.b314197b6f2f325f9ee5.jpg",
     "static/media/burger.png": "/Restaurant/static/media/burger.a53a46c563a90f1f1dad.png",
+    "static/media/jay-wennington-N_Y88TWmGwA-unsplash.jpg": "/Restaurant/static/media/jay-wennington-N_Y88TWmGwA-unsplash.457e447721227da5eaf3.jpg",
+    "static/media/bundo-kim-Pb9bUzH1nD8-unsplash.jpg": "/Restaurant/static/media/bundo-kim-Pb9bUzH1nD8-unsplash.e00c6b2f13c1781603f1.jpg",
     "static/media/ChickenGrill.png": "/Restaurant/static/media/ChickenGrill.94ef81825c7b0ac796d7.png",
     "static/media/beef.png": "/Restaurant/static/media/beef.af2c623b0f7cc02de038.png",
     "static/media/Pizza.png": "/Restaurant/static/media/Pizza.98c3c898338f4618275b.png",
+    "static/media/nate-johnston-ozHMc88WgcI-unsplash.jpg": "/Restaurant/static/media/nate-johnston-ozHMc88WgcI-unsplash.d886a55ff4df6864a586.jpg",
+    "static/media/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg": "/Restaurant/static/media/pablo-merchan-montes-Orz90t6o0e4-unsplash.38e5ec6fd6d8a098548c.jpg",
     "static/media/browny.png": "/Restaurant/static/media/browny.12f230668625d452ca8c.png",
     "static/media/chocolate.png": "/Restaurant/static/media/chocolate.246feb3d75323e40436b.png",
     "static/media/vanilla.png": "/Restaurant/static/media/vanilla.37d44459b71a2cb9ffc2.png",
     "static/media/shawarma.png": "/Restaurant/static/media/shawarma.67e47130f8eec14ab92e.png",
     "static/media/spagheti.png": "/Restaurant/static/media/spagheti.c0a7438081ec692a65f3.png",
     "static/media/TacoSalad.png": "/Restaurant/static/media/TacoSalad.5a3935e2aab917f728bd.png",
-    "static/media/fancyFood.jpg": "/Restaurant/static/media/fancyFood.63ce7aba85698beb6ef2.jpg",
     "static/media/BBQ.png": "/Restaurant/static/media/BBQ.5c1d912ddf726e9f97a6.png",
-    "static/media/Aboutus.jpg": "/Restaurant/static/media/Aboutus.3099d1d228ce4028f17b.jpg",
+    "static/media/cooking.png": "/Restaurant/static/media/cooking.66c4eca93a3b5056796f.png",
+    "static/media/tray.png": "/Restaurant/static/media/tray.d7ca5360d88f15ef44c2.png",
+    "static/media/room-service.png": "/Restaurant/static/media/room-service.3b1e53ef17af47febde2.png",
     "index.html": "/Restaurant/index.html",
-    "main.97865616.css.map": "/Restaurant/static/css/main.97865616.css.map",
-    "main.e0f26d9f.js.map": "/Restaurant/static/js/main.e0f26d9f.js.map"
+    "main.f5c918b6.css.map": "/Restaurant/static/css/main.f5c918b6.css.map",
+    "main.b6a7d647.js.map": "/Restaurant/static/js/main.b6a7d647.js.map"
   },
   "entrypoints": [
-    "static/css/main.97865616.css",
-    "static/js/main.e0f26d9f.js"
+    "static/css/main.f5c918b6.css",
+    "static/js/main.b6a7d647.js"
   ]
 }
