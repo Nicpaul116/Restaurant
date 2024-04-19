@@ -1,67 +1,97 @@
 import React from "react";
-import Aboutus from "../../assets/Aboutus.jpg";
 import "./blog.css";
+import { MdOutlineMessage } from "react-icons/md";
+import image1 from "../../assets/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg";
+import image2 from "../../assets/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg";
+import image3 from "../../assets/nate-johnston-ozHMc88WgcI-unsplash.jpg";
 
 const Blog = () => {
   return (
-    <div id="Blog" className="blog">
-      <div className="Blog_header">
-        <h1>
-          <span>About us</span>
-        </h1>
-      </div>
-      <div className="blog_wrap">
-        <div className="Blog_content">
-          <div>
-            {" "}
-            <img src={Aboutus} alt="About us" className="blog_img" />
-          </div>
-          <div className="blog_info">
-            <h1>Know us better</h1>
-            <p>
-              “We ought to be about something beyond moving chicken. We ought to
-              be a piece of our client’s lives and the networks in which we
-              serve.” Our originator, settled on the choice to close on Sundays
-              in 1946 when he opened hi s first eatery in Hapeville, Georgia.
-              Having worked seven days in eateries open 24 hours, Truett saw the
-              significance of shutting on Sundays with the goal that he and his
-              representatives could set aside one day to rest and love whether
-              they pick – a training we maintain today.
-            </p>
-            <button className="blog_button">Learn more..</button>
+    <div id="Blog">
+      <div className="container_blog-sec1">
+        <div className="sec1_wrap">
+          <h1>Make Reservation</h1>
+          <form action="">
+            <div className="form_input1">
+              <div className="form_input">
+                <div className="form">
+                  <h4>Name</h4>
+                  <input type="text" placeholder="Your Name" />
+                </div>
+                <div className="form">
+                  <h4>Email</h4>
+                  <input type="text" placeholder="Your Email" />
+                </div>
+              </div>
+              <div className="form_input">
+                <div className="form">
+                  <h4>Phone</h4>
+                  <input type="text" placeholder="Phone" />
+                </div>
+                <div className="form">
+                  <h4>Date</h4>
+                  <input type="date" placeholder="Date" />
+                </div>
+              </div>
+              <div className="form_input">
+                <div className="form">
+                  <h4>Time</h4>
+                  <input type="time" placeholder="Time" />
+                </div>
+                <div className="form">
+                  <h4>Person</h4>
+                  <input type="text" placeholder="Person" />
+                </div>
+              </div>
+            </div>
+          </form>
+          <div className="sec1_button">
+            <button>Make a Reservation</button>
           </div>
         </div>
-        <div className="Blog_content2">
-          <div className="Blog_content_Moto">
-            <h1>Motto</h1>
-            <p>
-              It is very important for the customer to pay attention to the
-              adipiscing process. And if anyone is blinded, let it be all
-              explained by pleasure or pleasure, loose, except to make them
-              great, so do the ways fall? Great, and the pain of pleasures.
-            </p>
-          </div>
-          <div className="Blog_content_News">
-            <div className="blog_content_news-header">
-              <h1>
-                <span>Newsletter</span>
-              </h1>
-            </div>
-            <div className="blog_content-info">
-              <p>Be the first to know about our new food products</p>
-            </div>
-            <div className="blog_content-form">
-              <form action="">
-                <div className="blog_content-input">
-                  <input
-                    type="text"
-                    placeholder="Enter email"
-                    name="Enter email"
-                  />
+      </div>
+      <div className="container_blog-sec2">
+        <h1>Recent Posts</h1>
+        <div className="sec2_posts">
+          <div className="post">
+            <img src={image1} alt="#" />
+            <div className="post_info">
+              <p>July 20, 2023</p>
+              <h6>Taste the delicious foods</h6>
+              <div className="sec2_icon">
+                <p>Read more</p>
+                <div className="icon">
+                  <MdOutlineMessage />
+                  <p>3</p>
                 </div>
-              </form>
-              <div className="blog_content-buttonsection">
-                <button className="Blog_content_button">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div className="post">
+            <img src={image2} alt="#" />
+            <div className="post_info">
+              <p>July 20, 2023</p>
+              <h6>Relaxing Areas</h6>
+              <div className="sec2_icon">
+                <p>Read more</p>
+                <div className="icon">
+                  <MdOutlineMessage />
+                  <p>15</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="post">
+            <img src={image3} alt="#" />
+            <div className="post_info">
+              <p>July 20, 2023</p>
+              <h6>What food critics are saying</h6>
+              <div className="sec2_icon">
+                <p>Read more</p>
+                <div className="icon">
+                  <MdOutlineMessage />
+                  <p>10</p>
+                </div>
               </div>
             </div>
           </div>

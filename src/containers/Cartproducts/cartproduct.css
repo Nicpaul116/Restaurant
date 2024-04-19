@@ -1,18 +1,16 @@
 .Cart-wrap {
   position: fixed;
-  left: 60%;
   right: 0;
   bottom: 0;
   top: 30%;
   z-index: 1;
   width: 100%;
-  max-width: 500px;
-  color: gold;
+  color: #000;
 }
 
 .Cart_shopping {
-  background-color: rgba(47, 66, 65);
-  border: 2px solid rgba(47, 66, 65);
+  background-color: #ccced7;
+  border: none;
   display: flex;
   border-radius: 15px;
   flex-direction: column;
@@ -26,8 +24,14 @@
   justify-content: space-between;
 }
 
+.product-info h3 {
+  padding-right: 2rem;
+}
+
 .product-info {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 0;
 }
 
@@ -40,17 +44,17 @@
 }
 
 .cart-product img {
-  height: 50px;
-  width: 50px;
+  height: 90px;
+  width: 90px;
 }
 
 .cart-product {
   display: flex;
-  flex-direction: column;
+
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border: 3px solid gold;
+  border: 3px solid #000;
   width: 100%;
 }
 
@@ -62,17 +66,17 @@
   height: 50px;
   width: 200px;
   color: black;
-  background-color: gold;
-  border: 1px solid gold;
+  background-color: #c8a97e;
+  border: 1px solid #c8a97e;
   transition: 0.3s ease-out;
 }
 
 .btn-proceed:hover {
   cursor: pointer;
   background-color: black;
-  border: 1px solid gold;
+  border: 1px solid #c8a97e;
   transition: 0.3s ease-in;
-  color: gold;
+  color: #c8a97e;
 }
 
 .btn-proceed_loc {

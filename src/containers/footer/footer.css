@@ -1,140 +1,142 @@
-.container_footer{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 15rem;
-    padding: 0 1rem;
+.container_footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15rem;
+  padding: 0 1rem;
 }
 
-.container_footer-info1{
-    display: flex;
-    flex-direction: column;
+.container_footer-info1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container_footer-company a {
+  text-decoration: none;
+  color: white;
+}
+
+.container_footer-company p {
+  align-items: center;
+}
+
+.footer_company-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer_company-link a {
+  transition: 0.1s ease-in;
+}
+
+.footer_company h3 {
+  color: #c8a97e;
+}
+
+.footer_company-link:hover a {
+  color: #c8a97e;
+  cursor: pointer;
+  transition: 0.1s ease-out;
+}
+
+.footer_company-link p {
+  padding-left: 0.5rem;
+}
+
+.container_footer-info1 h3 {
+  color: #c8a97e;
+}
+
+.footer_location p {
+  padding-left: 1rem;
+}
+
+.footer_telephone,
+.footer_email,
+.footer_location {
+  display: flex;
+  align-items: center;
+}
+
+.footer_telephone p {
+  padding-left: 1rem;
+}
+
+.footer_email p {
+  padding-left: 1rem;
+}
+
+.container_footer-info2 {
+  color: #c8a97e;
+}
+
+.container_footer-info2 ul {
+  display: flex;
+}
+
+.container_footer-info2 li {
+  padding: 0.5rem;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.container_footer-opening h3 {
+  color: #c8a97e;
+  padding-bottom: 1rem;
+}
+
+.footer_weekdays {
+  padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .container_footer {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container_footer {
+    display: block;
+    text-align: center;
+  }
+
+  .footer_company-link {
+    text-align: center;
     justify-content: center;
-}
+  }
 
-.container_footer-company a{
-    text-decoration: none;
-    color: white;
-}
+  .footer_company h3 {
+    font-size: 4rem;
+  }
 
-.container_footer-company p{
-    align-items: center;
-}
+  .footer_company-link {
+    font-size: 2rem;
+  }
 
-.footer_company-link{
-    display: flex;
-    align-items: center;
-}
+  .container_footer-info1 h3 {
+    font-size: 4rem;
+  }
 
-.footer_company-link a{
-    transition: 0.1s ease-in;
-}
+  .footer_email,
+  .footer_location,
+  .footer_telephone,
+  .container_footer-info2 {
+    font-size: 2rem;
+    justify-content: center;
+  }
 
-.footer_company h3{
-    color: gold;
-}
+  .container_footer-info2 ul {
+    justify-content: center;
+  }
 
-.footer_company-link:hover a{
-    color: gold;
-    cursor: pointer;
-    transition: 0.1s ease-out;
-}
+  .container_footer-opening h3 {
+    font-size: 4rem;
+  }
 
-.footer_company-link p{
-    padding-left: 0.5rem;    
-}
-
-.container_footer-info1 h3{
-    color: gold;
-}
-
-.footer_location p{
-    padding-left: 1rem;
-}
-
-.footer_telephone, .footer_email, .footer_location{
-    display: flex;
-    align-items: center;
-}
-
-.footer_telephone p{
-    padding-left: 1rem;
-
-}
-
-
-.footer_email p{
-    padding-left: 1rem;
-}
-
-.container_footer-info2{
-    color: gold;    
-}
-
-.container_footer-info2 ul{
-    display: flex;
-}
-
-.container_footer-info2 li{
-    padding: 0.5rem;
-    list-style-type: none;
-    cursor: pointer;
-}
-
-.container_footer-opening h3{
-    color: gold;
-    padding-bottom:1rem ;
-}
-
-.footer_weekdays{
-    padding-bottom: 0.5rem;
-}
-
-
-@media screen and (max-width:1050px) {
-    .container_footer{
-        margin: 0 ;
-    }
-}
-
-@media screen and (max-width:700px) {
-    .container_footer{
-        display: block;
-        text-align: center;
-    }
-
-    .footer_company-link{
-        text-align: center;
-        justify-content: center;
-    }
-
-    .footer_company h3{
-        font-size: 4rem;
-    }
-
-    .footer_company-link{
-        font-size: 2rem;
-    }
-
-    .container_footer-info1 h3{
-        font-size: 4rem;
-    }
-
-    .footer_email, .footer_location, .footer_telephone, .container_footer-info2{
-        font-size: 2rem;
-        justify-content: center;
-    }
-
-    .container_footer-info2 ul {
-        justify-content: center;
-    }
-
-    .container_footer-opening h3{
-        font-size: 4rem;
-    }
-
-    .footer_weekdays, .footer_weekend{
-        font-size: 2rem;
-    }
-
+  .footer_weekdays,
+  .footer_weekend {
+    font-size: 2rem;
+  }
 }

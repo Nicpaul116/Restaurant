@@ -1,37 +1,36 @@
-.container_header {
-  background: linear-gradient(90deg, rgb(68 68 68/ 35%), rgb(0 0 0 /95%)),
-    url("../../assets/fancyFood.jpg") no-repeat;
+.container_header-section {
+  min-height: 100vh;
+  background: radial-gradient(at center, rgb(68 68 68/ 35%), rgb(0 0 0 /100%)),
+    url("../../assets/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.container_header {
   display: flex;
-  min-height: 100vh;
 }
 
 .container_header_title {
-  text-align: end;
+  text-align: center;
   width: 100%;
   color: #fff;
 }
 
 .container_header_title h1 {
   color: black;
-  text-shadow: 0 0 2px gold;
+  text-shadow: 0 0 2px #c8a97e;
   font-size: 6rem;
   padding: 0 50px;
 }
 
 .container_header_title p {
-  color: gold;
   font-size: 3rem;
   padding: 0 2rem;
 }
 .header_button {
-  position: absolute;
-  top: 80%;
-  left: 50%;
   color: black;
-  background: gold;
-  border: solid gold;
+  background: #c8a97e;
+  border: solid #c8a97e;
   width: 150px;
   height: 80px;
   font-size: 1rem;
@@ -44,8 +43,8 @@
 }
 
 .header_button:hover {
-  border: solid gold;
-  color: gold;
+  border: solid #c8a97e;
+  color: #c8a97e;
   background: black;
   transition: 0.2s ease-in-out;
   cursor: pointer;

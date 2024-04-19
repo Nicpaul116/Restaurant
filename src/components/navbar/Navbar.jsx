@@ -12,19 +12,20 @@ const Navbar = () => {
     <div className="component_navbar">
       <Login logvisibility={showlogin} setLogin={() => setshowlogin(false)} />
       <div className="component-navbar_header">
-        <h1>
-          <span>Mhaka's</span> Dine
-        </h1>
+        <h1>Mhaka's Dine</h1>
       </div>
       <div className="navbar_menu">
         <p className="navbar_1">
-          <a href="#home">Home</a>
+          <a href="#Home">Home</a>
+        </p>
+        <p className="navbar_1">
+          <a href="#About">About</a>
         </p>
         <p className="navbar_1">
           <a href="#Menu">Menu</a>
         </p>
         <p className="navbar_1">
-          <a href="#Blog">About</a>
+          <a href="#Blog">Blog</a>
         </p>
         <p className="navbar_1">
           <a href="#contact">Contact</a>
@@ -38,7 +39,7 @@ const Navbar = () => {
               setshowlogin(true);
             }}
           >
-            Login
+            Sign in
           </button>
         </div>
       </div>
@@ -62,16 +63,19 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="navbar_menu-container">
             <div className="navbar_menu-container-links">
-              <p className="navbar_2">
+              <p className="navbar_1">
                 <a href="#home">Home</a>
               </p>
-              <p className="navbar_2">
+              <p className="navbar_1">
+                <a href="#About">About</a>
+              </p>
+              <p className="navbar_1">
                 <a href="#Menu">Menu</a>
               </p>
-              <p className="navbar_2">
-                <a href="#Blog">About</a>
+              <p className="navbar_1">
+                <a href="#Blog">Blog</a>
               </p>
-              <p className="navbar_2">
+              <p className="navbar_1">
                 <a href="#contact">Contact</a>
               </p>
               <div className="component_navbar-signin-links">
@@ -82,7 +86,7 @@ const Navbar = () => {
                       setshowlogin(true);
                     }}
                   >
-                    Login
+                    sign in
                   </button>
                 </div>
               </div>

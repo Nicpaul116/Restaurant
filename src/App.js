@@ -1,14 +1,21 @@
 import React from "react";
-import { Blog, Footer, Header, Menu, Contact, Login } from "./containers";
-import { Navbar } from "./components";
+import {
+  Blog,
+  Footer,
+  Header,
+  Menu,
+  Contact,
+  Login,
+  About,
+} from "./containers";
 import "./App.css";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
       <Login />
       <Header />
+      <About />
       <Menu />
       <Blog />
       <Contact />
