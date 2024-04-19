@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Restaurant/static/css/main.f5c918b6.css",
+    "main.css": "/Restaurant/static/css/main.0224e214.css",
     "main.js": "/Restaurant/static/js/main.b6a7d647.js",
     "static/media/creamcake.png": "/Restaurant/static/media/creamcake.45e5e5407d1d8df573db.png",
     "static/media/ali-inay-y3aP9oo9Pjc-unsplash.jpg": "/Restaurant/static/media/ali-inay-y3aP9oo9Pjc-unsplash.c96a2d1afd69442c7737.jpg",
@@ -25,11 +25,11 @@
     "static/media/tray.png": "/Restaurant/static/media/tray.d7ca5360d88f15ef44c2.png",
     "static/media/room-service.png": "/Restaurant/static/media/room-service.3b1e53ef17af47febde2.png",
     "index.html": "/Restaurant/index.html",
-    "main.f5c918b6.css.map": "/Restaurant/static/css/main.f5c918b6.css.map",
+    "main.0224e214.css.map": "/Restaurant/static/css/main.0224e214.css.map",
     "main.b6a7d647.js.map": "/Restaurant/static/js/main.b6a7d647.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5c918b6.css",
+    "static/css/main.0224e214.css",
     "static/js/main.b6a7d647.js"
   ]
 }
