@@ -4,6 +4,7 @@ import { MdOutlineMessage } from "react-icons/md";
 import image1 from "../../assets/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg";
 import image2 from "../../assets/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg";
 import image3 from "../../assets/nate-johnston-ozHMc88WgcI-unsplash.jpg";
+import {motion} from 'framer-motion'
 
 const Blog = () => {
   return (
@@ -51,9 +52,20 @@ const Blog = () => {
         </div>
       </div>
       <div className="container_blog-sec2">
-        <h1>Recent Posts</h1>
+        <motion.h1
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          Recent Posts
+        </motion.h1>
         <div className="sec2_posts">
-          <div className="post">
+          <motion.div
+            className="post"
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
             <img src={image1} alt="#" />
             <div className="post_info">
               <p>July 20, 2023</p>
@@ -66,8 +78,13 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="post">
+          </motion.div>
+          <motion.div
+            className="post"
+            initial={{ opacity: 0, x: 150 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
             <img src={image2} alt="#" />
             <div className="post_info">
               <p>July 20, 2023</p>
@@ -80,8 +97,13 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="post">
+          </motion.div>
+          <motion.div
+            className="post"
+            initial={{ opacity: 0, x: 200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+          >
             <img src={image3} alt="#" />
             <div className="post_info">
               <p>July 20, 2023</p>
@@ -94,7 +116,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

@@ -3,13 +3,19 @@ import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RiCloseLine } from "react-icons/ri";
 import { Login } from "../../containers";
+import {motion} from 'framer-motion'
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [showlogin, setshowlogin] = useState(false);
 
   return (
-    <div className="component_navbar">
+    <motion.div
+      className="component_navbar"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{delay:0.2, duration:2}}
+    >
       <Login logvisibility={showlogin} setLogin={() => setshowlogin(false)} />
       <div className="component-navbar_header">
         <h1>Mhaka's Dine</h1>
@@ -94,7 +100,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

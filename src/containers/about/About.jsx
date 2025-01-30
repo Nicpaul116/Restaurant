@@ -3,16 +3,32 @@ import "./about.css";
 import icon1 from "../../assets/tray.png";
 import icon2 from "../../assets/room-service.png";
 import icon3 from "../../assets/cooking.png";
+import {motion} from 'framer-motion'
 
 const About = () => {
   return (
     <div className="container_about-all">
       <div className="container_about" id="About">
         <div className="container_about-sec1">
-          <div className="img1"></div>
-          <div className="img2"></div>
+          <motion.div
+            className="img1"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          ></motion.div>
+          <motion.div
+            className="img2"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          ></motion.div>
         </div>
-        <div className="container_about-sec2">
+        <motion.div
+          className="container_about-sec2"
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+        >
           <h2>Mhaka Restaurant</h2>
           <p>
             A small river named Duden flows by their place and supplies it with
@@ -22,7 +38,7 @@ const About = () => {
           <h5>Mon - Fri</h5>
           <h4>8 AM - 11 PM</h4>
           <h1>+48 508 599 364</h1>
-        </div>
+        </motion.div>
       </div>
       <div className="container_about-sec3">
         <div className="sec3_content">
@@ -51,9 +67,20 @@ const About = () => {
       <div className="container_about-sec4">
         <div className="about_sec4-all">
           <div className="about-catering">
-            <h1>catering services</h1>
+            <motion.h1
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              catering services
+            </motion.h1>
           </div>
-          <div className="about_info">
+          <motion.div
+            className="about_info"
+            initial={{ opacity: 0, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5}}
+          >
             <div className="catering_info">
               <img src={icon1} alt="#" />
               <h3>Wedding</h3>
@@ -78,7 +105,7 @@ const About = () => {
                 texts it is an almost unorthographic.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
